@@ -1,13 +1,67 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.body{
+  margin: 20px;
+  height: 100vh;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  background-color: rgb(182, 212, 13);
+}
+h1{
+
+  text-align: center;
+}
+
+
+.addEmployee{
+  margin: 20px;
+  padding: 20px;
+  /* margin-bottom: 50px; */
+  /* display: flex; */
+  background-color:rgb(182, 212, 13) ;
+  /* justify-content: end; */
+  
+}
+.addEmployee input{
+  width: 150px;
+  height: 30px;
+border-radius: 10px;
+background-color: rgb(182, 212, 13) ;
+  margin-right: 30px;
+}
+
+.addEmployee .submitButton{
+  display: block ;
+  margin: 10px auto;
+  width: 200px;
+  /* width: 100%; */
+
+  background-color: rgb(0, 255, 200);
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.addEmployee button:hover{
+  background-color:crimson;
+  cursor: pointer;
+}
+/* .dropdown-toggle{
+  height: 400px;
+} */
+.table{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.inputDiv{
+  display: flex;
+  justify-content: center;
 }
